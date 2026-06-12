@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sally Maroush - Portfolio
+
+A highly optimized, personal portfolio website built with Next.js, Tailwind CSS, and Framer Motion. 
+
+⚡ **Performance Milestone:** This project achieved a perfect **100% Lighthouse Score** across all four categories:
+- Performance (100%)
+- Accessibility (100%)
+- Best Practices (100%)
+- SEO (100%)
+
+![100% Lighthouse Score](./public/lighthouse.png)
 
 ## Getting Started
 

@@ -68,16 +68,16 @@ export default function Projects() {
     {
       title: 'Engineering Showcase: This Website',
       subtitle: 'Design System Architecture & Performance Engineering',
-      description: 'This portfolio is built as a highly optimized, headless-inspired design system, demonstrating production-grade web architecture.',
+      description: 'This portfolio is built as a highly optimized, headless-inspired design system, demonstrating production-grade web architecture and perfect web vitals.',
       bullets: [
+        '**Perfect Lighthouse Score:** Achieved a flawless 100% across all four categories (Performance, Accessibility, Best Practices, and SEO).',
         '**Performance:** Engineered with Next.js (App Router) for sub-second page loads and zero-latency navigation.',
-        '**Stack:** TypeScript (Strict Mode), Tailwind CSS (Atomic Design), and Framer Motion (Orchestrated Animations).',
-        '**Quality Assurance:** Developed with a focus on hardware-accelerated rendering pipelines and 100/100 Lighthouse performance metrics.'
+        '**Stack:** TypeScript (Strict Mode), Tailwind CSS (Atomic Design), and Framer Motion (Orchestrated Animations).'
       ],
-      tags: ['Next.js', 'Tailwind CSS', 'Framer Motion', 'TypeScript', 'Performance Engineering'],
+      tags: ['Next.js', 'Tailwind CSS', 'Framer Motion', 'TypeScript', 'Performance Engineering', '100% Lighthouse'],
       isPrivate: false,
       links: [
-        { label: 'View Source Code', url: 'https://github.com/msally-1997/your-repo-name' }
+        { label: 'Source Code', url: 'https://github.com/msally-1997/sally-portfolio' }
       ]
     }
   ];
