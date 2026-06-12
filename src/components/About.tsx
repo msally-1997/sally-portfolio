@@ -74,6 +74,7 @@ export default function About() {
       
       {/* استعادة الحجم الأصلي العريض الفاخر max-w-7xl والمسافات الأصلية */}
       <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-12 py-20 md:py-28 grid lg:grid-cols-12 gap-12 lg:gap-20 items-center z-10">
+        <h2 className="sr-only">Core Technologies & Experience</h2>
         
         {/* شبكة الكروت التفاعلية العائمة بعرضها الكامل المريح */}
         <div className="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 pb-8 sm:pb-16 relative">

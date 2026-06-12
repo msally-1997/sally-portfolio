@@ -3,7 +3,7 @@
 export default function Footer() {
   return (
     <footer className="w-full bg-slate-950 py-8 border-t border-white/5 relative z-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
         <p>© {new Date().getFullYear()} Sally Maroush. All rights reserved.</p>
         <div className="flex gap-6">
           <a 
