@@ -17,10 +17,8 @@ export default function Contact() {
     const formData = new FormData(form);
 
     if (!WEB3FORMS_ACCESS_KEY) {
-      setTimeout(() => {
-        setStatus('success');
-        form.reset();
-      }, 1200);
+      setStatus('error');
+      setErrorMessage('Form is not configured correctly. Missing API Key.');
       return;
     }
 
